@@ -1,3 +1,4 @@
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.*;
@@ -71,6 +72,7 @@ public class PrizePanel extends JPanel {
     }
 
     private class Listener implements ActionListener {
+
         @Override
         public void actionPerformed(ActionEvent e) {
             myBuffer.setColor(BACKGROUND);
